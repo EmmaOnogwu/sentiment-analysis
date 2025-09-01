@@ -41,7 +41,7 @@ def detect_topic(text):
 # Streamlit UI
 st.title("🎓 Instructor Review Sentiment Checker")
 
-input_text = st.text_area(✍️ Enter a student review:")
+input_text = st.text_area("✍️ Enter a student review:")
 
 if st.button("🔍 Analyze"):
     if input_text.strip():
