@@ -2,6 +2,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
+![sample-image](/image/Sentiment%20Image.png)
+
 # 📊 Instructor Engagement Dashboard (Sentiment Analysis)
 
 ## 🧩 Overview
@@ -51,7 +53,16 @@ This project analyzes student reviews using **sentiment analysis** to provide in
 ---
 
 ## ▶️ How to Run
+Clone Repository
+```bash
+git clone https://github.com/EmmaOnogwu/sentiment-analysis.git
+```
 Install dependencies and run the analysis:
 ```bash
-pip install pandas nltk spacy scikit-learn gensim textblob matplotlib seaborn wordcloud
+pip install -r requirements.txt
+```
+
+Running UI
+```bash
+streamlit run app.py
 ```
